@@ -26,4 +26,4 @@ The purpose of this project is to document every component of my network, includ
 - Track changes as my homelab evolves.
 - Demonstrate networking and systems administration knowledge.
 
-> **Note:** Sensitive information such as public IP addresses, passwords, API keys, and serial numbers has been omitted or redacted.
+> **Note:** Sensitive information such as public IP addresses has been omitted or redacted.
