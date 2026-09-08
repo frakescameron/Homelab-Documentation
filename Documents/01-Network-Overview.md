@@ -11,7 +11,7 @@ The network is built around a few core principles:
 - **Separation of duties** — routing, switching, and wireless are handled by dedicated devices (pfSense, the Cisco Catalyst switch, and the ASUS access point) rather than a single consumer all-in-one router. This mirrors how enterprise networks are typically built and gives more visibility and control at each layer.
 - **Segmentation by trust level** — devices are grouped into VLANs based on their function and risk profile (wireless, server, and trusted workstation) rather than being left flat on one network.
 - **Deny-by-default** — every VLAN starts with no rules (implicit deny) and only the traffic that is explicitly needed is allowed. Inter-VLAN access is the exception, not the default.
-- **Document the "why," not just the "what"** — every major decision in this repository includes the reasoning behind it, since the reasoning is what actually gets evaluated in an interview setting, not just the end configuration.
+- **Document the "why," not just the "what"** — every major decision in this repository includes the reasoning behind it, since the reasoning is what actually gets evaluated, not just the end configuration.
 
 ## Current Architecture
 
